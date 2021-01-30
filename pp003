@@ -3,7 +3,7 @@ main()
 {
 	int n;
 	printf("Enter number to check: ");
-   scanf("%d",&n);	
+        scanf("%d",&n);	
 	if(n&1)
 		printf("%d is Odd",n);
 	else
