@@ -1,0 +1,19 @@
+#include<stdio.h>
+main()
+{
+	int n;
+	printf("Enter number to check : ");
+  scanf("%d",&n);
+	switch(n%2)
+	{
+		case 0:
+			{
+				printf("%d is Even",n);
+				break;
+			}
+		default:	
+			{
+				printf("%d is Odd",n);
+			}	
+	}	
+}
